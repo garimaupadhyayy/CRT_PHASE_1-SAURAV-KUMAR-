@@ -15,4 +15,5 @@ cin>>r>>c;
     cout<<endl;
   }
 }
+return 0;
 }
