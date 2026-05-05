@@ -13,11 +13,11 @@ int main()
     }
       for(int k = 1; k<=i; k++)
       {
-        cout<<k<<" ";
+        cout<<"*";
       }
       for(int g = i-1; g>=1; g--)
       {
-        cout<< g<<" ";
+        cout<<"*";
           }
      cout<<endl;
         }
