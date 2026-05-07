@@ -19,10 +19,10 @@ Student(string n, int a)
     age = a;
   }
 
-Student(Student &obj)
+Student(const Student &c)
 {
-  name = obj.name;
-  age = obj.age;
+  name = c.name;
+  age = c.age;
 }
 
   void display()
@@ -38,7 +38,7 @@ int main()
   s1.display();
   Student s2("Garima", 20);
   s2.display();
-  Student s3=s2;
+  Student s3(s2);
   s3.display();
   return 0;
 
