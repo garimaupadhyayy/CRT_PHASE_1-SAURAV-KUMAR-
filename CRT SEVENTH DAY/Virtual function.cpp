@@ -1,31 +1,31 @@
 #include<iostream>
 using namespace std;
 
-class Player
+class Student
 {
   public:
 
-  //by default
   virtual void show()
   {
-    cout<<"Player class show function."<<endl;
+    cout<<"Dog barks"<<endl;
+  }
+
+};
+
+class Cricketers : public Student
+{
+  public:
+
+  void show()
+  {
+    cout<<"child class"<<endl;
   }
 };
 
-class Cricketers: public Player{
-  public:
-  int a;
-  //user defined
-  void show()
-  {
-    cout<<"Cricketer class show function"<<endl;
-  }
-};
 
 int main()
 {
   Cricketers c1;
   c1.show();
-
   return 0;
 }

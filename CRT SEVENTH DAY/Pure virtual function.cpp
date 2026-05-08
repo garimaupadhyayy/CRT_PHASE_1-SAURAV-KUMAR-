@@ -10,8 +10,7 @@ class Player
 
 class Cricketers: public Player{
   public:
-  int a;
-  //implementation needed for pure virtual function
+  
   void show()
   {
     cout<<"Cricketer class show function"<<endl;
